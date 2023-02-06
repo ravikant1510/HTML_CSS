@@ -1,0 +1,22 @@
+h1{
+    font-size: 2em;
+    border: 2em solid black;
+    padding: 3em;
+}
+
+.box1{
+    font-size: 20px;
+}
+
+/* 
+    font-size vala case to same hi hai, vo apne parent ka font dekhega and uske multiple times kr dega
+    jaise h1 bahar vale ka font size 2x16 = 32 px, but ab twist yh hai ke ab jo bhi andar specify kra 
+    hai vo font-size ko uthayega aur uske multiple times kr dega =>
+    so boarder will be 2em = 2x32 = 64px
+    padding = 3em = 3x32 = 96px
+
+    now h1 inside box1.
+    fort-size = 2x20 = 40;
+    border = 40x2 = 80
+    padding = 3x20 = 60
+*/

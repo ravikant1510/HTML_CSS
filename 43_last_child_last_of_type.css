@@ -1,0 +1,9 @@
+
+/* is p is last child of my tag */
+p:last-child{
+    color: red;
+}
+
+p:last-of-type{
+    background-color: coral;
+}

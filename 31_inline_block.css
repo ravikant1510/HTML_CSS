@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+h1,h2{
+    border: 2px solid #222;
+    width: 500px;
+    height: 100px;
+    /* margin: 100px; */
+    
+}
+
+/* h1{
+    margin: 100px;
+}
+ */
+
+a{
+    border: 2px solid #222;
+    /* inline elements pr height and width ka kuch effect nhi pdeta vo aise hi rhte hai,
+    jitne hai utne hi */
+    width: 200px;
+    height: 400px;
+
+    /* margin: 100px; */
+}
+
+
+/* inme margin collepse nhi ho rhe hai, margin colleps block elements main hi ho rha hai
+and vo bhi ek ke nhice and dusre ke upar*/
+#id1{
+    margin-right: 20px;
+}
+#id2{
+    margin-left: 10px;
+} 

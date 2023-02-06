@@ -1,0 +1,39 @@
+/* vo saare elements jo p nhi hai unpe yh style apply kr do
+yh p ki jagh . lga class likh skte hai, # lda kr id likh skte hai
+mtlb selector lga skte hai */
+
+:not(p){
+    color: blue;
+}
+/* pr upar vala to sabko hi blue kr de rha hai, aisa isliye hua ki iss style ne
+body ko bhi blue color de diya to fir paragraphs ne vo volor inherit kr liya */
+
+/* to apn khenge body ke andar jo  paragraph nhi hai */
+body:not(p){
+    color: red;
+}
+
+
+/* vo div jo empty ho */
+div:empty{
+    background: #222;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+/* 
+root ya fir is trh html likna dono same kaam hai, but root vale ki 
+specificity jyada hai
+html{
+
+}
+
+root ka use variables bnane ke kaam aata hai jo baad main pdenge,
+but root ki jgh abhi body tag, html tag pe style deke bhi kaam chal jayega
+*/
+:root{
+    background: #333;
+    color: #eee;
+
+}

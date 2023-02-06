@@ -1,0 +1,9 @@
+/* kisi bhi element se phle kuch content add krna hai to before and baad main krna to after */
+
+/* by default inline hota hai, content se add hone vala */
+.cool::before{
+    content: 'hello ';
+}
+
+/* pseudo elements ko unhi ke saath use kr skte hai jinke pass content hi khud ka */
+/* inko images, br in sab tag ke saath use nhi kr skte */

@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+.nav{
+    background-color: rgb(163, 175, 187);
+    padding: 15px;
+    text-align: center;
+}
+
+.nav a{
+    padding-left: 60px;
+}
+
+p{
+    padding: 5px 0px;
+}
+
+h3{
+    margin-top: 15px;
+}

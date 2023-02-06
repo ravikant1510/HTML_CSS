@@ -1,0 +1,46 @@
+/* 
+    I want ki jo bhi latter first name and last name main type kra jaye
+    uska color set krna hai
+*/
+/* jitne bhi input hai jinka type text hai unpe apply hogi */
+input[type = "text"]{
+    color: red;
+}
+
+input[type = "password"]{
+    background-color: antiquewhite;
+}
+
+
+a[href="https://flipkart.com"]{
+    color: red;
+}
+/* ab upar vale main href ke andar pura likna pda */
+/* iska khne ka mtlb to yhi hai ke jitne bhi href hai jinme google aata hai unhe change 
+kr lo */
+a[href *= "google"]{
+    color: orchid;
+}
+
+
+/* ab vo anchor tag select krna hai ho "https" se start hote hai*/
+a[href ^= "https"]{
+    background-color: aqua;
+}
+
+
+/* vo sab links jo .com se khatam ho rhe ho */
+a[href $= ".com"]{
+    font-size: 20px;
+}
+
+/* yh upar vali properties sirf anchor tag ke liye applicable nhi hai
+sab ke liye lga skte hai 
+jaise: input inka tupe p se start ho tha ho
+*/
+
+input[type ^= "p"]{
+    color: dodgerblue;
+}
+
+ 

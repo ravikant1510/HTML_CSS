@@ -1,0 +1,12 @@
+
+.container1{
+    color: green;
+}
+
+body{
+    color: red;
+    /* yh sabhi ka color red kr rhi hai except a tag wale text ko chod kr */
+    /* reason vhi hai ke kuch elements ki bydefault styling hoti hai
+    
+    */
+}

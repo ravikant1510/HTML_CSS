@@ -1,0 +1,33 @@
+/* inline style attribute > id selector  > class selector  > element selector  */
+
+
+div#container ul.my-songs li{
+    color: brown;
+    background-color: yellow;
+}
+
+/* how to calculate specificity */
+/* -,-,-,- -> in char jgh pr number likhne hai
+left most-> number of inline style attribute -> 0 in above example
+2nd from left -> no of id selector -> 1 (container)
+3rd from left -> no of classes sectors -> 1 (my-songs)
+4th from left -> no of element selectors -> 3 (div , ul,li)
+
+so its specificity is : 0113
+*/
+ 
+
+.favorite{
+    color: yellow;
+    background-color: brown;
+}
+/* kuch asar nhi hua
+lets calculate its specificity
+-> 0 0 1 0  
+  */
+
+/* chalo isko aur jyada specific bnate hai */
+div#container ul.my-songs li.favorite{
+    color: yellow;
+    background-color: brown;
+}

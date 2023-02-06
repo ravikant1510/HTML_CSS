@@ -1,0 +1,11 @@
+/* 
+font size rem main dena shi rhta hai and 
+baki jo bhi margin, boarder vgrh jo hai vo em main dene
+shi rhte hai isse page ko responsive bnane main koi dikkat 
+nhi aati hai
+*/
+
+h1{
+    font-size: 2.8rem;
+    padding: 1em;
+}

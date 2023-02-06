@@ -1,0 +1,28 @@
+/* The paragraph which is second child of parent */
+p:nth-child(2){
+    color: red;
+}
+/* 
+p:nth-child(2n){
+    color: red;
+} 
+iska mtlb hai hr dusra child, mtlb 2nd, 4th,6th,8th like that
+
+
+
+p:nth-child(2n+1){
+    color: red;
+} 
+aisa bhi likh de to koi dikkat ki baat nhi hai phle n ko 0 fir 1,2,3,4 aise rkte jao and 
+uske hisab se krte jao
+*/
+
+p:nth-of-type(2){
+    background-color: darkorange;
+}
+/* inme bhi n lga skte hai */
+
+/* 
+ul li:nth-of-type(2){
+    color: aquamarine;
+} */

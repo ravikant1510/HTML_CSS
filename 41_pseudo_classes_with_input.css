@@ -1,0 +1,14 @@
+/* focus -> mtlb vo input fild jise abhi hum fill krne vale hai */
+
+input:focus{
+    padding: 20px;
+    /* vo by default jo blue line aati hai use outline property bolte hai */
+    outline: none;
+    border: 2px solid green;
+}
+
+
+/* ab required fields ka bhi aisa hi hota hai */
+input:required{
+    background-color: red;
+}

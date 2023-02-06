@@ -1,0 +1,13 @@
+/* yha import vala likho ya html main link vala */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:ital,wght@0,100;1,100;1,500&display=swap');
+
+
+body{
+     /* font-family: Arial, Helvetica, sans-serif; */
+    
+    /* google fonts se uthaya */
+     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* jo vha selected hai unme se koi ek yha lga do -> not compulsory*/
+    font-weight: 300;
+}

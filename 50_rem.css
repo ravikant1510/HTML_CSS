@@ -1,0 +1,8 @@
+/* jo element ka root element ke compare main jitna likha hai utne times kr degi
+
+by default html element ka font size 16px rhta hai*/
+.box1{
+    font-size: 2rem;
+    /* jruri nhi sirf font size main yh system lgaye, 
+    border, margin in sab main bhi lga skte hai  */
+}

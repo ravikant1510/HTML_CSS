@@ -1,0 +1,33 @@
+/* link , visited , hover , active -> inko css main isi order main likhna hota 
+hai */
+
+/* jo visite nhi kiye unka color orange rhega */
+a:link{
+    color: orange;
+}
+
+/* jo visit kr chuke unka color red rhega */
+a:visited{
+    color: red;
+}
+
+/* hover krne pr green ho jayega */
+a:hover{
+    color: green;
+}
+
+/* yh click krne pr dikhta hai, jitni der click hua tabhi tk rhta hai */
+a:active{
+    color: black;
+}
+
+/* yha pr sirf anchor tag ka kiya hai but classes, id, inpe bhi lga skte hai */
+
+
+p:hover{
+    color: green;
+}
+
+p:active{
+    background-color: black;
+}

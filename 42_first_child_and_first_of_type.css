@@ -1,0 +1,10 @@
+/* mtlb kisi bhi container main phla child agar paragraph hai use red kr do*/
+
+p:first-child{
+    color: red;
+}
+
+/* first-of-type mtlb hr tag main jo phle p tag hai uspe apply kr do */
+p:first-of-type{
+    background-color: burlywood;
+}

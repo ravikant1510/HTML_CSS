@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - 12</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="01_intro.html" method="get">
+        <label for="username">UserName</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name">
+
+        <br>
+        <br>
+
+        <label for="passwordleb">Password</label>
+        <input type="password" id="passwordleb" name="passwordl">
+
+        <br>
+        <br>
+
+        <label for="emailid">Email</label>
+        <input type="email" id="emailid" name="emailid" required>
+
+        <br>
+        <br>
+
+        <!-- sirf ek radio hi select ho to uske liye tino ko same name de denge -->
+        <!-- value ka kaam backend ke liye hai -->
+        <p>Select your gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male">
+
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female">
+
+        <br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="Other">
+
+        <br><br>
+
+        <!-- agar yh value backend main jayegi to name parameter main jayegi -->
+        <label for="age-group">Select Your age group</label>
+        <select name="age-group-values" id="age-group">
+            <option value="5-10">5-10</option>
+            <option value="11-20">11-20</option>
+            <option value="20-40">20-40</option>
+            <option value="40-50">40-50</option>
+            <option value="50+">50+</option>
+        </select>
+
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

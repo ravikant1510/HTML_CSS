@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,200;1,400&family=Poppins:wght@200;300;400;500&family=Roboto:ital,wght@0,100;1,100;1,500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  color: rgb(59, 148, 119);
+}
+
+header {
+  background-color: rgb(187, 227, 214);
+}
+
+main {
+  background-color: rgb(218, 232, 232);
+}
+
+.get-color {
+  background-color: rgb(29, 204, 231);
+}

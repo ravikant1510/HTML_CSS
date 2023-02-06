@@ -1,0 +1,14 @@
+h1{
+    /* color: aqua; */
+    /* google pe search kro color picker fir vha se bhi color ki hex velue utha skte hai */
+
+    /* hex color mai #e4342d-> 
+    phle do Red ko represent krte hai, fir 2 Green , fir 2 Blue 
+    
+    and value in hexa are like :- 
+    0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+    */
+
+    color: #fff;
+    color: #000;
+}

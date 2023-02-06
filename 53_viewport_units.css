@@ -1,0 +1,20 @@
+h1{
+    border: 2px solid red;
+    /* width: 20em; */
+    /* viewport width = vw */
+
+    width: 50vw;
+    /* to vw main and percent main difference yhi hai ki  percent 
+    apne parent ke respect main size leta hai but
+    vw entire screen ke respect main size leti hai, bhle vo parent se bahr hi kyun 
+    nhi chali jaye */
+
+    /* similarly vh -> viewport height  */
+
+
+    /* mtlb jo height and width main km hai, uske brabr height ko set kr do,
+    aise hi vmax
+    */
+
+    height: 100vmin;
+}

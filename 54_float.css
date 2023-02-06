@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.fav-musicians{
+    border: 10px solid green;
+}
+
+.mozart{
+     width: 25%;
+     /* float -> left,right,none */
+
+     background: lightgoldenrodyellow;
+     float: left;
+}
+
+.beethoven{
+    width: 25%;
+    float: left;
+    background-color: lightsalmon;
+}
+
+
+/* box bc hr khi se suru ho ja rha jha jgh mil rhi hai, to usko bolna hai aisa mt kr,
+jha left and right dono khatam hote hai vhi se start kr  */
+
+.box{
+    clear: both;
+}
+
+
+/* yh dono side by side to aa gye pr apne parent fav-musicians ke bahr chle gye hai
+to usko shi krne ke liye ek khali div bnaya hai clearfix class dekar, 
+bs usme clear:both lga do kaam ho jayega, baad main box lgane ki bhi jrurt nhi hai*/
+
+.clearfix{
+    clear: both;
+}
+
+.bach{
+    width: 25%;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.paganini{
+    width: 25%;
+    float: left;
+    background-color: gainsboro;
+}
+
+
+/* bina clearfix ke element parent se bahr aa rhe unhe shi krne ka trika */
+/* parent tag chuno and */
+.fav-musicians::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* before and after se same element ke andar hi phle and baad main respectively 
+add ho jata hai */

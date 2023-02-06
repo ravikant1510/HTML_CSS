@@ -1,0 +1,16 @@
+h2{
+    border: 20px dotted black;
+
+    width: 250px;
+    /* phle puri width le rha tha vo ab nhi le rha */
+
+    margin: 4px auto;
+    /* pura element bich main aa gya */
+
+    text-align: center; 
+    /* andar ka text center main aa gya */
+
+
+    /* jha se border start hota hai vhi se background start hota hai */
+    background-color: aqua;
+}

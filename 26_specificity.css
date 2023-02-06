@@ -1,0 +1,49 @@
+
+/* isko uper likho ya niche dono main red color hi apply ho rha hai
+kyunki classes normal html element se jyada specific rhti hai */
+.h1class{
+    color: red;
+}
+
+h1{
+    color: green;
+}
+
+/* class selector  > element selector  */
+
+
+
+#h1id{
+    color: deeppink;
+}
+
+/* ab id ka apply ho jayega  */
+
+/* id selector  > class selector  > element selector  */
+/* isnse bhi jyada prefernce inline css ko milegi */
+
+/* inline style attribute > id selector  > class selector  > element selector  */
+
+/* 
+h1{
+    color: green !important;
+}
+aisa krne se yhi aayega but hy acchi practice nhi hai
+*/
+
+/* agar specificity same hai to jo niche likha hoga usko prefernce milegi jaise in 
+case of styling element having more then 1 class   */
+
+
+/* ab yha h1.headline nhi likhte to dono ki specificity same rhti and jo
+baad main jikhte vo apply ho jaya 
+
+pr humne h1.headline kr diya hai to isse iski specificity bd gyi hai 
+*/
+h1.headline{
+    color: red;
+}
+
+.h1class{
+    color: green;
+}

@@ -1,0 +1,25 @@
+/* aur yh size apne parent ke relative main dekha jata hai like
+ */
+
+h1{
+    /* yha percent ka mtlb ho jayega ke original ke compare main kitna bda ya chota 
+    rh jayega */
+    font-size: 300%;
+}
+
+div{
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+p{
+    font-size: 200%;
+    /* ab jaise p apne parent ka font size dekhega, ki vo 20 px hai
+    to vo uske accourding 200% yani ke double krga, to
+    p ka font size 40px ho jayega */
+
+    width: 50%;
+    font-size: 100%;
+    border: 1px solid green;
+    margin: 4px auto;
+}

@@ -1,0 +1,63 @@
+/* universal selector */
+/* 
+*{
+    yh bhut km use hota hai and isse CSS ko reset krne 
+    ke liye use kiya jata hai
+} 
+*/
+
+
+header{
+    background-color: #f0ebeb; 
+}
+
+/* vo section jist class ho my-articles */
+section.my-articles{
+    background-color: #f2e9e9 ;
+}
+
+/* header ke andar ke paregraph ka color change krte hai */
+header p{
+    color: red;
+}
+
+/* list ke andar jitne bhi a tag hai unka color change kr do */
+li a{
+    color: blue;
+}
+
+/* 
+    yh kya krega ki jaise section jiski class my-articles hai ke angar jitne bhi h2 hai unka color change kr dega
+ */
+section.my-articles h2{
+    color: peru;
+}
+/* 
+    but agar hum yh chahte hai ki sirf section.my-articles ke andar ke h2 ka color 
+    change ho to, uske child ka nhi ho to 
+    iske liye use krte hai: Direct child combinator > yh sign lga kr krte hai
+*/
+
+section.my-articles > h2{
+    color: green;
+}
+
+
+/* 
+    Adjecent selector :- jaise apn ko vo paragraph select krne hai jo just 
+    h2 ke baad aate hai
+*/
+
+h2+p{
+     color: rgb(182, 63, 215);
+}
+
+/* 
+
+iska mtlb hai ke h2 ke baad p vle ka 
+color change kr do but yh sirf my-articles vale section main hi krna hai
+section.my-articles h2+p{
+     color: rgb(182, 63, 215);
+
+}
+ */

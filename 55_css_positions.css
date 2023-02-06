@@ -1,0 +1,93 @@
+/* by default positions static rhti hai */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 800px;
+    border: 8px solid green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container h1{
+    border: 4px solid red;
+    background: rgba(255, 255, 224, 0.981);
+
+    /* position: relative; */
+    /* ab position relative dene se ab 4 property use kr skta hun
+    top, bottom, right, left */
+    /* top: 50px; */
+    /* yh dene se element apni original position se 50px niche aa jayega,
+    similarly left and right  */
+    /* ab aise niche krne pr yh kisi dusre element ke upar aa gayega to fir
+    use adjust krne ke liye hum z-index ka use krte hai */
+
+    /* by default z-index : auto mtlb ke 0 rhta hai, to jiska z-index jyada rhega
+    vo upar rhega,
+    background main transparent bnane ka bhi ek option hota hai */
+
+    /* z-index: -1; */
+
+
+    /* ab position absolute ke bare main pdte hai */
+    /* position: absolute; */
+    /* yh krte hi kuch atpta sa output aata hai, element document flow se bahr ho jata hai */
+    /* iss position main bhi top,right,left,bottom de skte hai */
+
+}
+
+.container p{
+    border: 4px solid purple;
+    background: lightgray;
+}
+
+/* ab center krne ka trika  */
+.center{
+    /* parent ko position relative de deni hai */
+    position: relative;
+    border: 4px solid gray;
+    width: 500px;
+    height: 500px;
+}
+
+.center h1{
+    border: 2px solid red;
+    /* child ko position absolute de deni hai */
+    position: absolute;
+    /* ab isko center main krne ke liye */
+    /* top se niche kro 50% and left kro 50% */
+    top: 50%;
+    left: 50%;
+    /* abhi yh cener main to hai pr apni khud ki height and width ke karna
+    yh center se thoda hta hua hai */
+    /* to solution is */
+    /* iska khud ka 50% km kr do */
+    transform: translate(-50%,-50%);
+
+}
+
+
+.container h3{
+    background: black;
+    color: #fff;
+    /* position fixed ka bhi same case hai, saise hi position fixed kri 
+    element normal document flow se bahr chla jayega, and fir usko top
+    left vgrh dekr ek jgh fix kiya ja skega, and fir page scroll krne pr bhi
+    usi jgh fixed rhega  */
+    position: fixed;
+    top: 0;
+    /* z-index bhi de do, in case kisi ko jyada de di to yh piche na chla jaye */
+    z-index: 10;
+}
+
+.sticky{
+    background-color: antiquewhite;
+    position: sticky;
+    /* ab keval sticky dene se yh normal document flow se bhr nhi chla jayega */
+    top: 10px;
+    /* pr ab top de diya mtlb ab jaise hi top se 10px duri pr rhega yh us position pr 
+    stick kr jayega, and jab tk iska parent pura scroll nhi hota yh vhi pr stick rhega */
+    /* mtlb phle relative ki trh fir fixed ki trh behave krgega */
+}
+

@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 70%;
+    margin: auto;
+}
+
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(153, 179, 181);
+    margin: 20px 0px;
+    padding: 6px;
+}
+
+article{
+    padding: 6px;
+    margin-bottom: 25px;
+    border: solid black 1px;
+}
+
+article h3,p{
+    padding: 6px;
+}

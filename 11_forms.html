@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - 11</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="01_intro.html" method="get">
+        <!-- id and name ki value alg bhi de skte hai pr 
+        maine same di hai -->
+
+        <!-- method - get rkhne pr url main data dikta hai name:value jo humne fill kri -->
+        <!-- get is HTTP verb  -->
+        <!-- post main url main data nhi dikhta hai vo http ke header main add
+         ho jata hai -->
+        <label for="username">UserName</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name">
+
+        <br>
+        <br>
+
+        <label for="passwordleb">Password</label>
+        <input type="password" id="passwordleb" name="passwordl">
+
+        <br>
+        <br>
+
+        <label for="emailid">Email</label>
+        <input type="email" id="emailid" name="emailid" required>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

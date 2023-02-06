@@ -1,0 +1,32 @@
+p{
+/*   By default normal ya 400 hota hai,  
+    font-weight: 400;
+    font-weight: normal; */
+
+    /* 
+        font-weight: bold/700;
+    */
+    
+    /* kuch mtlb aisa nhi hai ki 400 se 500 krne pr kuch change ho,
+    mtlb koi regular change nhi aayga but 400 se 700 kiya to ekdum change aayega */
+
+    font-style: italic;
+    font-size: 20px;  
+
+    /* underline, overline , linethrow*/
+    text-decoration: underline;
+    text-decoration: underline wavy red;
+    text-decoration: overline solid blue;
+    /* linethrow text ko kaat degi, yh todo list bnane main kaam ata hai */
+
+
+    /* line height -> do line ke bich ka distance */
+    line-height: 30px;
+
+    /* word-specing -> do word ke bich ka space */
+    word-spacing: 8px;
+
+    /* letter-specing -> 2 letter ke bich ka space, generally headings
+    main use ki jati hai*/
+    letter-spacing: 2px;
+}

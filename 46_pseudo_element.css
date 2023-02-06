@@ -1,0 +1,25 @@
+/* single colon se bhi kaam chal jayega but convention seudo element ke case mai
+double colon lgane ka hai */
+p::first-letter{
+    font-size: 32px;
+}
+
+/* similarly */
+p::first-line{
+    color: pink;
+}
+
+/* The two, first-letter and first line works with block level elements only */
+
+/* mtlb element ko select krne pr jo hota hai */
+p::selection{
+    background: black;
+    color: white;
+}
+
+/* 
+::selection{
+
+}
+aisa rkhne pr sab elements pr apply ho jayega
+ */
